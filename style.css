@@ -1,1 +1,78 @@
+html{
+	font-family : "Gill Sans";
+	background-color : #f9f5f5;
+}
+
+a{
+	text-decoration : None;
+	color : black;
+}
+
+p{
+	text-align : center;
+}
+ul{
+	list-style-type : none;
+}
+
+img{ 
+	max-width : 300px;
+	max-height : 400px;
+	width : auto;
+	height : auto;
+}
+
+h2,h1{
+	display : flex;
+	justify-content : center;
+}
+
+header{
+	background-color : lightgrey;
+}
+
+
+header h1 p{
+	text-aligh : center;
+	color : 255 255 255;
+}
+
+header nav ul li{
+	display : inline-block;
+	margin-right: 35px;
+	margin-left: 35px;
+	font-size : 20px
+	color : white;
+}
+
+header nav ul li a{
+	color : white;
+}
+
+h1~ul{
+	text-align : center;
+	margin : 1% 0;
+}
+
+#menu{
+	background-color : black;
+	color : white;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 200px;
+}
+
+
+footer{
+	background-color : lightgrey;
+}
+
+footer ul li a{
+	display : flex;
+	justify-content : center;
+}
+
 
