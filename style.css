@@ -33,7 +33,7 @@ header{
 
 
 header h1 p{
-	text-aligh : center;
+	text-align : center;
 	color : 255 255 255;
 }
 
@@ -41,7 +41,7 @@ header nav ul li{
 	display : inline-block;
 	margin-right: 35px;
 	margin-left: 35px;
-	font-size : 20px
+	font-size : 20px;
 	color : white;
 }
 
